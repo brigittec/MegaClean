@@ -1,0 +1,246 @@
+section {
+    color: white;
+    font-weight: normal;
+    font-size: 16pt;
+}
+
+.servicesection {
+    margin-left: 30px;
+}
+
+#aboutImage {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+#contactImage {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+#servicesImage {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+#about:target #aboutImage {
+    transform: translate(0,-160px);
+    -webkit-transform: translate(0,-160px);
+    -o-transform: translate(0,-160px);
+    -moz-transform: translate(0,-160px);
+}
+
+#services:target #servicesImage {
+    transform: translate(0,-100px);
+    -webkit-transform: translate(0,-100px);
+    -o-transform: translate(0,-100px);
+    -moz-transform: translate(0,-100px);
+    -ms-transform: translate(0, -100px);
+}
+
+#contact:target #contactImage {
+    transform: translate(0,-220px);
+    -webkit-transform: translate(0,-220px);
+    -o-transform: translate(0,-220px);
+    -moz-transform: translate(0,-220px);
+}
+
+.bodystyle {
+    background: no-repeat center center fixed;
+    font-family: 'Trebuchet MS' !important;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/bubbles_2.jpg);
+}
+
+article > header {
+    padding-top: 7px;
+    font-weight: bolder;
+    color:silver;
+}
+
+.megabuttons {
+    background-color: rgba(51, 88, 133, 1) !important;
+    border: solid 1px silver !important;
+    width: 80px !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    border-radius: 20px !important;
+    text-align: center !important;
+}
+
+.py-5 {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    width: 100% !important;
+}
+
+
+article {
+    text-align: justify;
+}
+
+img {
+    position: absolute;
+    vertical-align: bottom !important;
+}
+
+.img-border {
+    border: solid white 2px;
+}
+
+.relativeImg {
+position: relative !important;
+margin-right: 20px;
+height: auto;
+border: solid white 2px;
+}
+
+#bottompictures {
+    text-align: center;
+}
+
+header.masthead {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+    header.masthead > .overlay {
+        padding: 5rem 0;
+        text-align: center;
+
+    }
+
+@media only screen and (max-width: 500px) {
+
+    section {
+        color: white;
+        font-weight: bold;
+        font-size: 10pt;
+    }
+
+    .display-1 {
+        font-size: 20pt;
+        line-height: normal;
+    }
+
+    .display-4 {
+        font-size: 16pt;
+        line-height: 2;
+    }
+
+    * {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+
+    article > header {
+        padding-top: 7px;
+        font-weight: bolder;
+        color: silver;
+    }
+
+    .megabuttons {
+        border: none;
+        margin: auto;
+        text-align: center !important;
+        background-color: green;
+    }
+
+    .row {
+        display:inline-table !important;
+        text-align: inherit !important;
+    }
+
+    .py-5 {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        width: 100% !important;
+    }
+
+
+    article {
+        text-align: justify;
+    }
+
+    #bottompictures {
+        display:none;
+    }
+    
+    
+    
+    img {
+        position: relative !important;
+        vertical-align: bottom !important;
+    }
+
+    .img-border {
+        border: solid white 2px;
+    }
+
+    .relativeImg {
+        position: relative !important;
+        margin-right: 20px;
+        height: auto;
+        border: solid white 2px;
+    }
+
+
+    header.masthead {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    header.masthead > .overlay {
+        padding: 5rem 0;
+        text-align: center;
+    }
+
+    .bodystyle {
+        background: none;
+        background-color: darkblue;
+        font-family: 'Trebuchet MS' !important;
+    }
+
+}
